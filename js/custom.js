@@ -170,5 +170,6 @@ document.querySelector('.popup-content').onsubmit = function(event) {
     event.preventDefault();
     alert('Form Submitted!'); // Change this to actual form handling logic
     document.getElementById('popupForm').style.display = 'none';
+    document.getElementById('overlay').classList.add('hidden');
 };
   
